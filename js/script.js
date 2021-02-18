@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // 7) Если название фильма больше, чем 21 символ - обрезать его и добавить три точки
             if (newFilm.length > 21) {
-                newFilm = `${newFilm.substring(0, 22)}...`;
+                newFilm = `${newFilm.substring(0, 20)}...`;
 
             }
 
